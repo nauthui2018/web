@@ -1,0 +1,19 @@
+{
+    "crimson text": {
+        "italic": "\/Users\/Nauthui7\/uit\/hk3\/Project\/test-platform-be\/vendor\/dompdf\/dompdf\/lib\/fonts\/crimson_text_italic_8e3d0fda1db87e10724d6ee4dad637ff",
+        "normal": "\/Users\/Nauthui7\/uit\/hk3\/Project\/test-platform-be\/vendor\/dompdf\/dompdf\/lib\/fonts\/crimson_text_normal_bdc3f0e1ea6bf8b050d4c52f2999b1b3",
+        "600": "crimson_text_600_6d4cb58d8ff3f24e52d760e44b4c3644"
+    },
+    "inter": {
+        "300": "\/Users\/Nauthui7\/uit\/hk3\/Project\/test-platform-be\/vendor\/dompdf\/dompdf\/lib\/fonts\/inter_300_7b550e25a8a764205b0ff734920d0e50",
+        "normal": "\/Users\/Nauthui7\/uit\/hk3\/Project\/test-platform-be\/vendor\/dompdf\/dompdf\/lib\/fonts\/inter_normal_7328646baedbaa78df9d97328f97b2c0",
+        "500": "\/Users\/Nauthui7\/uit\/hk3\/Project\/test-platform-be\/vendor\/dompdf\/dompdf\/lib\/fonts\/inter_500_4efc23ce37e6e22aee754d42cd63ca44",
+        "600": "\/Users\/Nauthui7\/uit\/hk3\/Project\/test-platform-be\/vendor\/dompdf\/dompdf\/lib\/fonts\/inter_600_d63a7c0c8732180c323356ba08cac7d8",
+        "bold": "inter_bold_c60e16028ab46ac4c30f16a14b5aab03"
+    },
+    "playfair display": {
+        "normal": "\/Users\/Nauthui7\/uit\/hk3\/Project\/test-platform-be\/vendor\/dompdf\/dompdf\/lib\/fonts\/playfair_display_normal_7a0fbf30421b5567ecd3ceb52fb01f30",
+        "600": "\/Users\/Nauthui7\/uit\/hk3\/Project\/test-platform-be\/vendor\/dompdf\/dompdf\/lib\/fonts\/playfair_display_600_94d439a555107a504dd99448e3053326",
+        "bold": "playfair_display_bold_966f8c39ee80301c6b1d108ac4f6abc5"
+    }
+}

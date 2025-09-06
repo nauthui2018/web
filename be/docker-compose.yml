@@ -1,0 +1,38 @@
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: test-platform-be
+        container_name: test-platform-be
+        restart: unless-stopped
+        working_dir: /var/www
+        volumes:
+            - .:/var/www
+        ports:
+            - "8000:8000"
+        networks:
+            - test-platform
+        env_file:
+            -   .env
+        command: php artisan serve --host=0.0.0.0 --port=8000
+
+    db:
+        image: mysql:8.0
+        container_name: test-platform-mysql
+        restart: unless-stopped
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_DATABASE: test_platform
+            MYSQL_ROOT_PASSWORD: root
+        volumes:
+            - db_data:/var/lib/mysql
+        networks:
+            - test-platform
+
+volumes:
+    db_data:
+
+networks:
+    test-platform:
